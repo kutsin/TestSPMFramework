@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9C194A82CC0C6BC0000E848 /* IOSAuthorizationModule in Frameworks */ = {isa = PBXBuildFile; productRef = F9C194A72CC0C6BC0000E848 /* IOSAuthorizationModule */; };
+		F9C194AF2CC0CD430000E848 /* IOSCommonProtocols in Frameworks */ = {isa = PBXBuildFile; productRef = F9C194AE2CC0CD430000E848 /* IOSCommonProtocols */; };
+		F9C194B22CC0CDF40000E848 /* IOSBuildTools in Frameworks */ = {isa = PBXBuildFile; productRef = F9C194B12CC0CDF40000E848 /* IOSBuildTools */; };
+		F9C194B52CC0CE4C0000E848 /* IOSCommonService in Frameworks */ = {isa = PBXBuildFile; productRef = F9C194B42CC0CE4C0000E848 /* IOSCommonService */; };
+		F9C194B82CC0CF980000E848 /* IOSMaterialKit in Frameworks */ = {isa = PBXBuildFile; productRef = F9C194B72CC0CF980000E848 /* IOSMaterialKit */; };
+		F9C194BB2CC0D1330000E848 /* InputMask in Frameworks */ = {isa = PBXBuildFile; productRef = F9C194BA2CC0D1330000E848 /* InputMask */; };
+		F9C194BE2CC0D1D30000E848 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F9C194BD2CC0D1D30000E848 /* SnapKit */; };
+		F9C194C42CC0D4630000E848 /* IOSActions in Frameworks */ = {isa = PBXBuildFile; productRef = F9C194C32CC0D4630000E848 /* IOSActions */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9C194932CC0C3390000E848 /* SravniLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SravniLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F9C194982CC0C3390000E848 /* Exceptions for "SravniLib" folder in "SravniLib" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				SravniLib.h,
+			);
+			target = F9C194922CC0C3390000E848 /* SravniLib */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F9C194952CC0C3390000E848 /* SravniLib */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F9C194982CC0C3390000E848 /* Exceptions for "SravniLib" folder in "SravniLib" target */,
+			);
+			path = SravniLib;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9C194902CC0C3390000E848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C194B82CC0CF980000E848 /* IOSMaterialKit in Frameworks */,
+				F9C194B22CC0CDF40000E848 /* IOSBuildTools in Frameworks */,
+				F9C194B52CC0CE4C0000E848 /* IOSCommonService in Frameworks */,
+				F9C194BE2CC0D1D30000E848 /* SnapKit in Frameworks */,
+				F9C194BB2CC0D1330000E848 /* InputMask in Frameworks */,
+				F9C194A82CC0C6BC0000E848 /* IOSAuthorizationModule in Frameworks */,
+				F9C194C42CC0D4630000E848 /* IOSActions in Frameworks */,
+				F9C194AF2CC0CD430000E848 /* IOSCommonProtocols in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9C194892CC0C3390000E848 = {
+			isa = PBXGroup;
+			children = (
+				F9C194952CC0C3390000E848 /* SravniLib */,
+				F9C194942CC0C3390000E848 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9C194942CC0C3390000E848 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9C194932CC0C3390000E848 /* SravniLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F9C1948E2CC0C3390000E848 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F9C194922CC0C3390000E848 /* SravniLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C194992CC0C3390000E848 /* Build configuration list for PBXNativeTarget "SravniLib" */;
+			buildPhases = (
+				F9C1948E2CC0C3390000E848 /* Headers */,
+				F9C1948F2CC0C3390000E848 /* Sources */,
+				F9C194902CC0C3390000E848 /* Frameworks */,
+				F9C194912CC0C3390000E848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F9C194952CC0C3390000E848 /* SravniLib */,
+			);
+			name = SravniLib;
+			packageProductDependencies = (
+				F9C194A72CC0C6BC0000E848 /* IOSAuthorizationModule */,
+				F9C194AE2CC0CD430000E848 /* IOSCommonProtocols */,
+				F9C194B12CC0CDF40000E848 /* IOSBuildTools */,
+				F9C194B42CC0CE4C0000E848 /* IOSCommonService */,
+				F9C194B72CC0CF980000E848 /* IOSMaterialKit */,
+				F9C194BA2CC0D1330000E848 /* InputMask */,
+				F9C194BD2CC0D1D30000E848 /* SnapKit */,
+				F9C194C32CC0D4630000E848 /* IOSActions */,
+			);
+			productName = SravniLib;
+			productReference = F9C194932CC0C3390000E848 /* SravniLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9C1948A2CC0C3390000E848 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F9C194922CC0C3390000E848 = {
+						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
+					};
+				};
+			};
+			buildConfigurationList = F9C1948D2CC0C3390000E848 /* Build configuration list for PBXProject "SravniLib" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9C194892CC0C3390000E848;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F9C194A62CC0C6BC0000E848 /* XCRemoteSwiftPackageReference "IOSNAuthorizationModule" */,
+				F9C194AD2CC0CD430000E848 /* XCRemoteSwiftPackageReference "IOSNCommonProtocols" */,
+				F9C194B02CC0CDF40000E848 /* XCRemoteSwiftPackageReference "IOSBuildTools" */,
+				F9C194B32CC0CE4C0000E848 /* XCRemoteSwiftPackageReference "IOSNCommonService" */,
+				F9C194B62CC0CF980000E848 /* XCRemoteSwiftPackageReference "IOSMaterialKit" */,
+				F9C194B92CC0D1330000E848 /* XCRemoteSwiftPackageReference "input-mask-ios" */,
+				F9C194BC2CC0D1D30000E848 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F9C194C12CC0D3DB0000E848 /* XCRemoteSwiftPackageReference "IOSCommonModules" */,
+				F9C194C22CC0D4630000E848 /* XCRemoteSwiftPackageReference "IOSActions" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F9C194942CC0C3390000E848 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9C194922CC0C3390000E848 /* SravniLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9C194912CC0C3390000E848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9C1948F2CC0C3390000E848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F9C1949A2CC0C3390000E848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PHWSRY24JP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sravni.SravniLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		F9C1949B2CC0C3390000E848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PHWSRY24JP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sravni.SravniLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Release;
+		};
+		F9C1949C2CC0C3390000E848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9C1949D2CC0C3390000E848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9C1948D2CC0C3390000E848 /* Build configuration list for PBXProject "SravniLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C1949C2CC0C3390000E848 /* Debug */,
+				F9C1949D2CC0C3390000E848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9C194992CC0C3390000E848 /* Build configuration list for PBXNativeTarget "SravniLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C1949A2CC0C3390000E848 /* Debug */,
+				F9C1949B2CC0C3390000E848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F9C194A62CC0C6BC0000E848 /* XCRemoteSwiftPackageReference "IOSNAuthorizationModule" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sravni/IOSNAuthorizationModule";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		F9C194AD2CC0CD430000E848 /* XCRemoteSwiftPackageReference "IOSNCommonProtocols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sravni/IOSNCommonProtocols";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		F9C194B02CC0CDF40000E848 /* XCRemoteSwiftPackageReference "IOSBuildTools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sravni/IOSBuildTools";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		F9C194B32CC0CE4C0000E848 /* XCRemoteSwiftPackageReference "IOSNCommonService" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sravni/IOSNCommonService";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		F9C194B62CC0CF980000E848 /* XCRemoteSwiftPackageReference "IOSMaterialKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sravni/IOSMaterialKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		F9C194B92CC0D1330000E848 /* XCRemoteSwiftPackageReference "input-mask-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RedMadRobot/input-mask-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 7.3.2;
+			};
+		};
+		F9C194BC2CC0D1D30000E848 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		F9C194C12CC0D3DB0000E848 /* XCRemoteSwiftPackageReference "IOSCommonModules" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sravni/IOSCommonModules";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		F9C194C22CC0D4630000E848 /* XCRemoteSwiftPackageReference "IOSActions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sravni/IOSActions";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F9C194A72CC0C6BC0000E848 /* IOSAuthorizationModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9C194A62CC0C6BC0000E848 /* XCRemoteSwiftPackageReference "IOSNAuthorizationModule" */;
+			productName = IOSAuthorizationModule;
+		};
+		F9C194AE2CC0CD430000E848 /* IOSCommonProtocols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9C194AD2CC0CD430000E848 /* XCRemoteSwiftPackageReference "IOSNCommonProtocols" */;
+			productName = IOSCommonProtocols;
+		};
+		F9C194B12CC0CDF40000E848 /* IOSBuildTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9C194B02CC0CDF40000E848 /* XCRemoteSwiftPackageReference "IOSBuildTools" */;
+			productName = IOSBuildTools;
+		};
+		F9C194B42CC0CE4C0000E848 /* IOSCommonService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9C194B32CC0CE4C0000E848 /* XCRemoteSwiftPackageReference "IOSNCommonService" */;
+			productName = IOSCommonService;
+		};
+		F9C194B72CC0CF980000E848 /* IOSMaterialKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9C194B62CC0CF980000E848 /* XCRemoteSwiftPackageReference "IOSMaterialKit" */;
+			productName = IOSMaterialKit;
+		};
+		F9C194BA2CC0D1330000E848 /* InputMask */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9C194B92CC0D1330000E848 /* XCRemoteSwiftPackageReference "input-mask-ios" */;
+			productName = InputMask;
+		};
+		F9C194BD2CC0D1D30000E848 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9C194BC2CC0D1D30000E848 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F9C194C32CC0D4630000E848 /* IOSActions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9C194C22CC0D4630000E848 /* XCRemoteSwiftPackageReference "IOSActions" */;
+			productName = IOSActions;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F9C1948A2CC0C3390000E848 /* Project object */;
+}
