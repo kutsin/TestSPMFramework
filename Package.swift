@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SravniLib",
-            url: "https://www.dropbox.com/scl/fi/jqtqvmtmdigeqex7akqoj/SravniLib.xcframework.zip?rlkey=tw17qdqi6irrv9l5gj74ddibo&st=0muw4pey&dl=1",
-            checksum: "69c3c37444aad5067d0079aac3887a8fdbf6c727ce6208cf3131d1a79a909847"
+            url: "https://www.dropbox.com/scl/fi/kp2pcltnu737ad7p0jcrk/SravniLib.xcframework.zip?rlkey=phjgpscs6bns83s88a3o2cpi1&st=gttt6ihj&dl=1",
+            checksum: "4109a1d63473eae12b9a848aab8abf53060a89b8f544c470a7b10f81ba583997"
         )
     ]
 )
